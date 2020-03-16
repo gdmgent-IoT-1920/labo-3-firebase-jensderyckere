@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.header {
+	background: #00B4DB;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #0083B0, #00B4DB);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #0083B0, #00B4DB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+}
+
+.form-group {
+	margin-top: 50px;
+}
+
+.form-group-flex {
+	display: flex;
+}
+
+.form-group-flex button {
+	margin-left: 30px;
+}
+
+.form-check {
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
